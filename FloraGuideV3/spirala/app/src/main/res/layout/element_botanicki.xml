@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CBBBF4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/slikaItem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintCircleRadius="112dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nazivItem"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/border"
+                android:paddingLeft="4dp"
+                android:text="Sample Text"
+                android:textAlignment="inherit"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/porodicaItem"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:padding="4dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/klimatskiTipItem"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:padding="4dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/zemljisniTipItem"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:padding="4dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

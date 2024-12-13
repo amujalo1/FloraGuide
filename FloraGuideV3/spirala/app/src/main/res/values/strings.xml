@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">spirala1</string>
+    <string-array name="modes_array">
+        <item>Medicinski</item>
+        <item>Kuharski</item>
+        <item>Botanički</item>
+    </string-array>
+</resources>
